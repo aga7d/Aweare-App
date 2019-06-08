@@ -15,7 +15,7 @@ class ResultPage extends React.Component{
   }
 
   renderStyle(h){
-    const calc= h*3.8;
+    const calc= h*3.7;
     return {
       maxHeight: `${calc}vh`,
       height: `${calc}vh`,
