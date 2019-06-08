@@ -36,9 +36,8 @@ class GlossaryPage extends React.Component {
               <div id="alternatives">
                 Alternatives:
                 {alternatives.map(material => (
-                  
                     <div onClick={()=>{history.push(material)}}> <GlossaryIcon name={material} color="#B97D76" /></div>
-                 
+                    
                 ))}
               </div>
             ) : null}
