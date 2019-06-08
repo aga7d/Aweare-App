@@ -58,7 +58,6 @@ class SelectFabric extends React.Component {
         marginTop: 0,
         background: "white",
         color: fontCol,
-
       }),
       menuList: (base,state) => {
           return {
@@ -90,8 +89,6 @@ class SelectFabric extends React.Component {
     };
   }
   renderSelect(style, optionId, text,customArray) {
-    
-    
     return (
       <Select
         styles={style}

@@ -30,5 +30,4 @@ const mapDispatchToProps = {
 const mapStateToProps = state => {
   return { tips: state.tips, loading: state.apiCallsInProgress>0}
 }
-
 export default connect(mapStateToProps,mapDispatchToProps)(TipsPage);
