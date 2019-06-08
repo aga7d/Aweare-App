@@ -17,7 +17,6 @@ module.exports = router => {
       if (err) {
         res.status(400).json({ message: "Error finding this kind of fabric" });
       } else {
-        console.log(result);
         res.status(200).json(result);
       }
     });
