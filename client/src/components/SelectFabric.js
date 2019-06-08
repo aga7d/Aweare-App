@@ -26,14 +26,10 @@ class SelectFabric extends React.Component {
      this.props.fetchMaterialsAction()
    }
     componentDidUpdate() {
-    
      this.props.selectedFabricAction(this.state)
-     
   }
  
   renderStyles( backgroundCol, hoverCol, fontCol ) {
-  
-  
     return {
       control: (base, state) => {
           return{
@@ -47,7 +43,6 @@ class SelectFabric extends React.Component {
           borderColor: backgroundCol
         }
           }
-       
       },
       placeholder: () => ({
         color: "#fff",
