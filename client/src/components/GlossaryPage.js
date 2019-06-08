@@ -13,12 +13,13 @@ class GlossaryPage extends React.Component {
   componentDidMount() {
     this.fetchMaterial()
   }
-  componentDidUpdate() {
+  componentDidUpdate(prevProps) {
+    if(prevProps.loading===this.props.loading)
     this.fetchMaterial()
   }
   render() {
     const { name, description, alternatives } = this.props.fetchedMaterial;
-    return this.props.fetchedMaterial.name ? (
+    return this.props.loading ? null :(
       <div className="container">
         <img id="topleft" src={back7} alt="decoration" />
         <img id="topright" src={back9} alt="decoration" />
@@ -32,26 +33,26 @@ class GlossaryPage extends React.Component {
 
           <div id="description_box">
             <p>{description}</p>
-            {alternatives.length ? (
+            {alternatives && alternatives.length? (
               <div id="alternatives">
                 Alternatives:
                 {alternatives.map(material => (
                     <div onClick={()=>{history.push(material)}}> <GlossaryIcon name={material} color="#B97D76" /></div>
-                    
+
                 ))}
               </div>
             ) : null}
           </div>
         </div>
       </div>
-    ) : null;
+    ) 
   }
 }
 const mapDispatchToProps = {
   fetchMaterialAction
 };
 const mapStateToProps = state => {
-  return { fetchedMaterial: state.fetchedMaterial, };
+  return { fetchedMaterial: state.fetchedMaterial, loading:state.apiCallsInProgress>0 };
 };
 
 export default connect(
