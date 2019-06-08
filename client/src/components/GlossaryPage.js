@@ -20,7 +20,7 @@ class GlossaryPage extends React.Component {
   render() {
     const { name, description, alternatives } = this.props.fetchedMaterial;
     return this.props.loading ? null :(
-      <div className="container">
+      <div>
         <img id="topleft" src={back7} alt="decoration" />
         <img id="topright" src={back9} alt="decoration" />
         <div id="inner">
