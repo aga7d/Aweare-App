@@ -6,9 +6,6 @@ const NextButton =(props)=>{
          <Link to= {props.link}>
          <i className="fas fa-long-arrow-alt-right"></i>
          </Link>
-         <Link to={props.link}>
-          <span>{props.text}</span>
-         </Link>
         </button>
     )
 }

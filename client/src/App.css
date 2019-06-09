@@ -1,3 +1,6 @@
+
+
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -197,7 +200,7 @@ button {
   display: -ms-grid;
   display: grid;
   grid-column-gap: 8vw;
-  grid-row-gap: 20px;
+  grid-row-gap: 5vh;
   -ms-grid-columns: 1fr 10vw 1fr 10vw 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 20px 1fr;
@@ -249,9 +252,7 @@ svg path {
   font-size: calc(0.5vw + 12px);
   margin-top: 5px;
 }
-#shorts {
-  margin-top: 30px;
-}
+
 #shorts-svg {
   height: 10vh;
 }
@@ -427,35 +428,18 @@ button div{
 .btn{
   bottom:4vh;
   right:60px;
-  margin-right:7px;
-  -webkit-box-pack:justify;
-      -ms-flex-pack:justify;
-          justify-content:space-between;
-  -webkit-animation-name: fade;  /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 0.7s;  /* Safari 4.0 - 8.0 */  
-  animation-name: fade;
-  animation-duration: 0.7s;  
+  font-size:calc(3em + 2.5vh);
+  margin-right:10px;
   width:50px;
   height:70px;
 }
-@-webkit-keyframes fade {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
 
-@keyframes fade {
-  from {opacity: 0}
-  to {opacity: 1}
-}
-.btn i , .btn span{
+.btn i {
   color:grey;
   display:block;
-}
-.btn i {
-  font-size: calc(4em + 2.5vh);
   top:0px;
-  -webkit-animation-name: arrow_scale;  /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 2s;  /* Safari 4.0 - 8.0 */  
+  -webkit-animation-name: arrow_scale;  
+  -webkit-animation-duration: 2s;  
   animation-name: arrow_scale;
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
@@ -466,49 +450,54 @@ button div{
  
 }
 @-webkit-keyframes arrow_scale {
- 0%{
-   scale:1;
- }
- 10%{ scale:1.2}
- 20%{scale:1}
- 30%{scale:1.2}
- 40%{scale:1}
+   0%{
+        color:grey;
+      }
+      10%{
+         color: rgb(173, 171, 171);
+      }
+      20%{
+        color:grey;
+        }
+      30%{
+        color: rgb(173, 171, 171);
+      }
+      40%{font-size:1em;
+      color:grey;
+      }
+      50%{
+        
+        color: rgb(173, 171, 171);
+        }
+      60%{
+         color:grey;
+      }
 }
 
+
 @keyframes arrow_scale {
-   0%{
-   font-size:calc(4em + 2vh);
+  0%{
    color:grey;
  }
  10%{
-    font-size:calc(4em + 2.4vh);
     color: rgb(173, 171, 171);
  }
  20%{
-   font-size:calc(4em + 2vh);
    color:grey;
    }
  30%{
-   font-size:calc(4em + 2.4vh);
    color: rgb(173, 171, 171);
  }
- 40%{font-size:calc(4em + 2vh);
+ 40%{font-size:1em;
  color:grey;
  }
  50%{
-   font-size:calc(4em + 2.4vh);
+   
    color: rgb(173, 171, 171);
    }
- 60%{font-size:calc(4em + 2vh);
+ 60%{
     color:grey;
  }
- 100%{font-size:calc(4em + 2vh);}
-}
-.btn span{
-  font-size:calc(0.7em + 0.8vh);
-  letter-spacing:1px;
-  text-transform:uppercase;
-  font-weight:600;
 }
 .about h2, .glossary_container h2{
   color:#F49F5C;
