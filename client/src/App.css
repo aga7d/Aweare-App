@@ -193,10 +193,10 @@ button {
   color: #dd9378;
 }
 #garments {
-  padding-top: 5px;
+  margin-top: 20px;
   display: -ms-grid;
   display: grid;
-  grid-column-gap: 10vw;
+  grid-column-gap: 8vw;
   grid-row-gap: 20px;
   -ms-grid-columns: 1fr 10vw 1fr 10vw 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -228,6 +228,7 @@ button {
   -ms-grid-column: 5;
 }
 .garment_container {
+  padding:7px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

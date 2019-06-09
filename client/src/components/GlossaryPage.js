@@ -17,6 +17,7 @@ class GlossaryPage extends React.Component {
     if(prevProps.loading===this.props.loading)
     this.fetchMaterial()
   }
+  
   render() {
     const { name, description, alternatives } = this.props.fetchedMaterial;
     return this.props.loading ? null :(
