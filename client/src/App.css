@@ -193,7 +193,7 @@ button {
   color: #dd9378;
 }
 #garments {
-  margin-top: 20px;
+  padding-top: 50px ;
   display: -ms-grid;
   display: grid;
   grid-column-gap: 8vw;
@@ -228,7 +228,6 @@ button {
   -ms-grid-column: 5;
 }
 .garment_container {
-  padding:7px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -236,6 +235,7 @@ button {
       justify-content: space-around;
 }
 .garment_container svg {
+  padding:5px;
   height: 14vh;
 }
 svg path {
@@ -427,7 +427,7 @@ button div{
 .btn{
   bottom:4vh;
   right:60px;
-  margin-right:20px;
+  margin-right:7px;
   -webkit-box-pack:justify;
       -ms-flex-pack:justify;
           justify-content:space-between;
