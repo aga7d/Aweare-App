@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom"
 const NextButton =(props)=>{
     return  (
-        <button className= "btn">
+        <button aria-label="Next" className= "btn">
          <Link to= {props.link}>
          <i className="fas fa-long-arrow-alt-right"></i>
          </Link>

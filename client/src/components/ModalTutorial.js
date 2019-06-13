@@ -57,11 +57,11 @@ const ModalTutorial = props => {
          <p>{textList(count)}</p>
         </div>
         <div id="stripe">
-          <button onClick={()=>{handleClick("skip")}}>Skip</button>
+          <button aria-label="Skip" onClick={()=>{handleClick("skip")}}>Skip</button>
           <div>
            {[0,1,2,3].map(dot=><div key={dot} className={count===dot? "dot active": "dot"} onClick={()=>{setCount(dot)}}></div>)}
           </div>
-          <button id="arrow" onClick={()=>{handleClick("next")}}>{count <= 2 ? <i className="fas fa-long-arrow-alt-right"></i> : "Start"}</button>
+          <button aria-label="Next" id="arrow" onClick={()=>{handleClick("next")}}>{count <= 2 ? <i className="fas fa-long-arrow-alt-right"></i> : "Start"}</button>
         </div>
       </div>
     </div>

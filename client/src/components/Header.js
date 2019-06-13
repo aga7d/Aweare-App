@@ -41,6 +41,7 @@ class Header extends React.Component{
           } else {
             return (
               <button
+                aria-label="dropdown menu"
                 className={this.props.visibleDropDown? "active-dropdown":"dropdown-btn"}
                 onClick={() => {
                   this.props.dropDownMenuAction(!this.props.visibleDropDown);
