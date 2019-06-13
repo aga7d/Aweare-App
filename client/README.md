@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Aweare App
+ Aware app is a React app that calculates the environmental impacts of fashion industry, provides tips for more eco-friendly wardrobe and lets you learn more about materials thanks to Fabric Glossary. 
+ [Start using it](https://aweareapp.herokuapp.com/)
 
-## Available Scripts
+### Screenshots
+<img width="1272" alt="Screenshot 2019-06-13 at 18 58 55" src="https://user-images.githubusercontent.com/48506944/59452906-0caf9d00-8e0f-11e9-83b6-fe4cebc157ab.png">
 
-In the project directory, you can run:
+<img width="1270" alt="Screenshot 2019-06-13 at 19 02 14" src="https://user-images.githubusercontent.com/48506944/59452971-336dd380-8e0f-11e9-9e6b-03962c787a8d.png">
 
-### `npm start`
+<img width="1263" alt="Screenshot 2019-06-13 at 19 03 19" src="https://user-images.githubusercontent.com/48506944/59452997-3ec0ff00-8e0f-11e9-8623-4645478e31f7.png">
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<img width="1276" alt="Screenshot 2019-06-13 at 19 05 09" src="https://user-images.githubusercontent.com/48506944/59453029-4d0f1b00-8e0f-11e9-9012-00c0d3f98388.png">
 
-### `npm test`
+### Technologies used in this project:
+* React
+* Redux
+* Node.js with Express 
+* MongoDB
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Author:
+Agnieszka Dąbrowska - agidabrow@gmail.com

@@ -5,7 +5,6 @@ import { Router, Route } from "react-router-dom";
 import { LastLocationProvider } from "react-router-last-location";
 import history from "./history";
 import App from "./components/App";
-import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <Root>
@@ -17,4 +16,4 @@ ReactDOM.render(
   </Root>,
   document.getElementById("root")
 );
-serviceWorker.unregister();
+
