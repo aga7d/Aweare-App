@@ -31,7 +31,6 @@ class Glossary extends React.Component {
     return <div>No results</div>
   }
    
-
   render() {
     return (
       <div className="glossary_container">
@@ -40,6 +39,7 @@ class Glossary extends React.Component {
        <div id= "glossary_inner">
         <h2>Fabric Glossary</h2>
         <div id="input_box">
+         
           <input
             placeholder="Search"
             type="text"
@@ -51,10 +51,8 @@ class Glossary extends React.Component {
         <Spinner/>:(
         <div className="list_container">
         {this.renderList()}
-        </div>)
-         
-       
-      }
+        </div>) 
+        }
       </div>
       </div>
         

@@ -12,7 +12,7 @@ const SelectGarmentPage = props => {
         <div id="garments">
           <div className="garment_container">
             <i>
-              <GarmentIcon name="shirt" /*score={2}*/ score={0.9} />
+              <GarmentIcon name="shirt"  score={0.9} />
             </i>
             <span>Shirt</span>
           </div>
