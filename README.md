@@ -17,7 +17,9 @@
 * React
 * Redux
 * Node.js with Express 
+* mongoose
 * MongoDB
+* Jest, enzyme
 
 ### Author:
 Agnieszka Dąbrowska - agidabrow@gmail.com
