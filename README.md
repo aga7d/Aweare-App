@@ -1,6 +1,7 @@
 # Aweare App
  Aware app is a React app that calculates the environmental impacts of fashion industry, provides tips for more eco-friendly wardrobe and lets you learn more about materials thanks to Fabric Glossary. 
- [Start using it](https://aweareapp.herokuapp.com/)
+ 
+ ### [Start using it](https://aweareapp.herokuapp.com/)
 
 ### Screenshots
 <img width="1272" alt="Screenshot 2019-06-13 at 18 58 55" src="https://user-images.githubusercontent.com/48506944/59452906-0caf9d00-8e0f-11e9-83b6-fe4cebc157ab.png">
